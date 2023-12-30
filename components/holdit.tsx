@@ -10,10 +10,27 @@ export default function HoldIt() {
         // set the state
         setUrl(document.location.hostname);
     }); // only run it once!
-    
+    const typer = useRef(null);
+    useEffect(() => {
+        
+        const typed = new Typed(typer.current, {
+          strings: [`${url}`],
+          startDelay: 300,
+          typeSpeed: 75,
+          backSpeed: 100,
+          backDelay: 100,
+          loop: false,
           
+          
+    
+        });
+    
+        return () => {
+          typed.destroy();
+        };
+        }, [url]); 
           
     return (
-        url
+        <span ref={typer}></span>
     )
 }
