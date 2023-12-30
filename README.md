@@ -18,7 +18,7 @@ To get started with this Domain Placeholder, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Customize the project to fit your specific domain requirements.
-3. Start building your application on top of the Domain Placeholder foundation.
+3. Start building your application on top of the Domain Placeholder foundation!
 
 ## Contributing
 
