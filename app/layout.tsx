@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: `${document.location.hostname}`,
+  title: `Home | Yeezyhosting.shop`, // change domain per usercase
   description: 'Domain placeholder',
 }
 
