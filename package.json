@@ -2,11 +2,10 @@
   "name": "domain-placeholder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "tailwind.yeezyhosting.shop",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "next": "14.0.4",
