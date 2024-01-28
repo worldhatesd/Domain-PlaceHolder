@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: `${window.location.hostname}`,
+  title: `${document.location.hostname}`,
   description: 'Domain placeholder',
 }
 
